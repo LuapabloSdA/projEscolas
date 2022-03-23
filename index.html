@@ -30,7 +30,12 @@
                 align-items: center;
                 margin: 5px;
                 padding: 5px;
-
+            }
+            #pag_menu a{
+                text-decoration: none;
+                display: block;
+                padding: 10px 14px;
+                color: yellow;
             }
             #pag_meio{
                 height: 50%;
@@ -52,9 +57,32 @@
             #traco2{
                 text-decoration: black;
             }
+            #links{
+                text-decoration: none;
+            }
+            #pag_menu a:hover{
+                transition: 0,5s;
+                background-color: rgba(11, 179, 6, 0.829);
+                color:rgb(255, 0, 0);
+            }
+            button{
+                display: block;
+                border: none;
+                border-radius: 5px;
+                color: yellow;
+                background: rgb(251,7,7);
+                background: linear-gradient(90deg, rgba(251,7,7,1) 1%, rgba(0,194,255,1) 100%);
+                cursor: pointer;
+            }
+            button:hover{
+                opacity: 0.8;
+            }
+            button:active{
+                opacity: 0.6;
+            }
         </style>
     </head>
-    <body vlink="yellow" link="yellow">
+    <body>
         <!--Titulo da página-->
         <title>Escolas de Mar Vermelho</title>
         <div id="pag_cima">
@@ -70,6 +98,7 @@
             <p><a href="https://luapablosda.github.io/projHistoria/">Historia</a></p>
             <p><a href="https://luapablosda.github.io/projArtesanato/">Artesanato</a></p>
             <p><a href="https://luapablosda.github.io/projTurismo/">Turismo</a></p>
+            <a href="https://luapablosda.github.io/projFormContato/"><button>Reporta...</button></a>
 
         </div>
         <!--Página Central-->
